@@ -11,22 +11,20 @@ const Header = () => {
     return (
             <Navbar collapseOnSelect expand="lg" bg="light" variant="light" sticky="top" >
                 <Container>
-                    <Navbar.Brand >
-                        <NavHashLink to="/home#home" className='nav-link d-flex align-items-center' >
-                        <img src={logo} alt="" />
-                        <h3 className='ms-3 logo-text'>
+                    <Navbar.Brand to="/home" className='d-flex align-items-center'>
+                        <img className='w-75' src={logo} alt="" />
+                        <h4 className='ms-3 logo-text'>
                             <span className='logo-text-1'>SKIN</span>CLINICS
-                        </h3>
-                        </NavHashLink>
+                        </h4>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-lg-auto text-start ms-lg-0 ms-4">
-                            <NavHashLink className='nav-link fw-bold fs-5 section' to="/home#home">Home</NavHashLink>
-                            <NavHashLink className='nav-link fw-bold fs-5 section' to="/home#services">Services</NavHashLink>
-                            <NavHashLink className='nav-link fw-bold fs-5 section'  to="/home#reviews">Reviews</NavHashLink>
-                            <NavLink className='nav-link fw-bold fs-5 section' to="/blogs">Blogs</NavLink>
-                            <NavLink className='nav-link fw-bold fs-5 section' to="/appoinment">Appoinment</NavLink>
+                            <NavHashLink className='nav-link fw-bold ' to="/home#home">Home</NavHashLink>
+                            <NavHashLink className='nav-link fw-bold ' to="/home#services">Services</NavHashLink>
+                            <NavHashLink className='nav-link fw-bold ' to="/home#reviews">Reviews</NavHashLink>
+                            <NavLink className='nav-link fw-bold ' to="/blogs">Blogs</NavLink>
+                            <NavLink className='nav-link fw-bold ' to="/appoinment">Appoinment</NavLink>
 
                         </Nav>
                         <Nav className='d-flex align-items-lg-center align-items-start ms-lg-0 ms-4'>

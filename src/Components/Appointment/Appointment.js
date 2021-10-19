@@ -7,9 +7,9 @@ import './Appoinment.css'
 const Appointment = () => {
     const { user } = useAuth();
     const [appointment, setAppointment] = useState({});
-    const { register, handleSubmit, watch, formState: { errors } } = useForm();
+    const { register, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = data => {
-        const { name, email, subject, details, appointdate } = data;
+        const { name } = data;
         setAppointment(data)
     };
     return (
