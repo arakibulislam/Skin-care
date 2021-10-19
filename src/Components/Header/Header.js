@@ -20,11 +20,11 @@ const Header = () => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-lg-auto text-start ms-lg-0 ms-4">
-                            <NavHashLink className='nav-link fw-bold ' to="/home#home">Home</NavHashLink>
-                            <NavHashLink className='nav-link fw-bold ' to="/home#services">Services</NavHashLink>
-                            <NavHashLink className='nav-link fw-bold ' to="/home#reviews">Reviews</NavHashLink>
-                            <NavLink className='nav-link fw-bold ' to="/blogs">Blogs</NavLink>
-                            <NavLink className='nav-link fw-bold ' to="/appoinment">Appoinment</NavLink>
+                            <NavHashLink className='nav-link fw-bold section' to="/home#home">Home</NavHashLink>
+                            <NavHashLink className='nav-link fw-bold section' to="/home#services">Services</NavHashLink>
+                            <NavHashLink className='nav-link fw-bold section' to="/home#reviews">Reviews</NavHashLink>
+                            <NavLink className='nav-link fw-bold section ' to="/blogs">Blogs</NavLink>
+                            <NavLink className='nav-link fw-bold section' to="/appoinment">Appoinment</NavLink>
 
                         </Nav>
                         <Nav className='d-flex align-items-lg-center align-items-start ms-lg-0 ms-4'>

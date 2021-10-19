@@ -31,8 +31,7 @@ const Home = () => {
                     <div className="section-head col-sm-12 mt-5">
                         <h4><span>Our</span> Services</h4>
                         <p>
-                            Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the
-                            industry's<br className="d-lg-block d-none" />standard dummy text ever since the 1500s, when an unknown book.
+                        Helping you discover healthy, pure glowing skin and a beautiful body using customized results-driven <br className="d-lg-block d-none" />treatment strategy that will leave you looking as young as you feel.
                         </p>
                     </div>
                     {
