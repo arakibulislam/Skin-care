@@ -34,9 +34,11 @@ const Header = () => {
                             </p>
                             <img className='user-img me-2 rounded-circle' src={user.photoURL} alt="" />
                             {!user?.email ? <NavLink className='nav-link me-2' to="/login"><i className="fas fa-user me-2"></i>Log In</NavLink> : <Button variant="outline-dark" onClick={logOut}><i className="fas fa-sign-out-alt me-2"></i>Logout</Button>}
-                            <NavLink className='nav-link' to="/singup">
+
+                            {!user?.email && <NavLink className='nav-link' to="/singup">
                                 <Button className='button'>Sing Up</Button>
-                            </NavLink>
+                            </NavLink>}
+                            
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
