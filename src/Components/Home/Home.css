@@ -1,0 +1,89 @@
+.bg-hero{
+    background-image:url('../../images/slider02.jpg');
+    background-position: center right;
+    min-height: 580px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    animation: xfade 16s 2s infinite;
+    transition: all 4s ease-in-out;
+    
+}
+@keyframes xfade{
+    0%{
+        background-image: url('../../images/slider02.jpg');
+    }
+    
+    100%{
+        background-image: url('../../images/cosmetics-slider.jpg');
+    }
+}
+
+.banner_content h4{
+    font-family: 'Dancing Script', cursive;
+    padding-top:8rem;
+    font-weight: 700;
+    font-size:2.5rem;
+    color:#fe436c;
+}
+.banner_content h2{
+    font-size:4rem;
+    font-weight:600;
+    padding:0.8rem 0;
+    width:80%;
+}
+
+.main-btn{
+    padding:1rem 2rem;
+    font-size:1.2rem;
+    background-color:#fe436c;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    border:none;
+    cursor:pointer;
+    border-radius: 0.5rem;
+}
+
+/* ============= */
+.section-head span{
+    display:inline-block;
+    text-decoration: none;
+    color:inherit;
+}
+.section-head{
+    margin-bottom:4rem;
+}
+.section-head h4{
+    position:relative;
+    padding:0;
+    color:#fe436c;
+    line-height: 1;
+    letter-spacing:0.019;
+    font-size: 2.125rem;
+    font-weight: 900;
+    text-align: center;
+    text-transform: none;
+    margin-bottom:1.875rem;
+}
+.section-head h4::before{
+    content:'';
+    width:3.75rem;
+    height:0.188rem;
+    background:#fe436c;
+    position:absolute;
+    bottom:-0.625rem;
+    left:0;
+    right:0;
+    margin:0 auto;
+}
+.section-head h4 span{
+    font-weight: 900;
+    padding-bottom: 0.313rem;
+    color:#2f2f2f;
+}
+.section-head p{
+    color:#2f2f2f;
+    font-size:1rem;
+    line-height: 1.75rem;
+    text-align:center;
+}

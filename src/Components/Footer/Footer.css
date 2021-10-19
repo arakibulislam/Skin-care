@@ -1,0 +1,101 @@
+.logo-text{
+    color: #bc003f;
+    font-weight: 800;
+    letter-spacing: 3px;
+
+}
+.logo-text-1{
+    color: #fe436c;
+}
+.footer{
+    padding-top:3rem;
+    background-color: #000;
+}
+.footer_box{
+    padding:5rem 0;
+}
+.footer .footer-menu ul li,
+.footer p,
+.footer ul li{
+    color:#fff;
+    list-style: none;
+}
+.footer-menu ul li {
+    font-size: 0.9rem;
+    line-height:2rem;
+    transition:0.3s;
+}
+.footer-menu ul li:hover{
+    color:#fe436c !important;
+}
+.footer-widget-title{
+    line-height: 30px;
+    margin-bottom:10px;
+    font-size:18px;
+    font-weight: 600;
+    color:#fff;
+}
+.mini-footer{
+    text-align: center;
+    padding:32px 0;
+    border-top:0.0650rem solid #fe436c;
+}
+.mini-footer p{
+    margin:0;
+    line-height: 1.6rem;
+    font-size: 0.850rem;
+    color:#fff;
+}
+.mini-footer p {
+    color:#fe436c;
+    font-weight: 500;
+}
+.widget-about .contact-details li{
+    margin-bottom:0.8rem;
+}
+.widget-about .contact-details li:last-child{
+    margin-bottom:0;
+}
+.widget-about .contact-details li i{
+    padding-right:0.8rem;
+    color:#fff;
+}
+.widget-about .contact-details li {
+    color:#fff;
+}
+.widget-about .social_icons li{
+    list-style: none;
+    display:inline-block;
+    margin:2rem 0.3rem;
+}
+.widget-about .social_icons li i{
+    width:2.5rem;
+    height:2.5rem;
+    line-height: 2.4rem;
+    text-align: center;
+    color:#fff;
+    border:1px solid #fe436c;
+    border-radius: 2rem;
+    transition:0.3s ease-in-out;
+}
+
+.widget-about .social_icons li i:hover{
+    background-color:#fe436c;
+    color:#fff;
+    transform:translateY(-0.5rem);
+}
+.site-button{
+    color:#fff;
+    background-color:#fe436c;
+    padding:0.6rem 1rem;
+    display:inline-block;
+    font-size: 0.875rem;
+    outline:none;
+    cursor:pointer;
+    border-width:0;
+    border-style: solid;
+    border-color:transparent;
+    line-height:1.42857;
+    text-decoration: none !important;
+    border-radius: 0px .25rem .25rem 0;
+}

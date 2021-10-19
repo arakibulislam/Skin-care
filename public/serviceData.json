@@ -1,0 +1,245 @@
+[
+    {
+        "id": 1,
+        "thumbnail": "https://musing-euclid-055303.netlify.app/service01.png",
+        "bannerImg": "https://musing-euclid-055303.netlify.app/banner-1.jpg",
+        "beforAfterImg": "https://cosmedics-s3-bucket.s3.eu-west-2.amazonaws.com/wp-content/uploads/2020/05/27114018/botox-frown-lines-before-after.jpg",
+        "beforAfterImg1": "https://cosmedics-s3-bucket.s3.eu-west-2.amazonaws.com/wp-content/uploads/2020/07/14135158/BOTOX-Treatment-Results.jpg",
+        "serviceNmae": "Anti-Wrinkle Injections ",
+        "price": "250",
+        "title": "Botox Wrinkle Treatment",
+        "titelDetails": "Anti-wrinkle injections are the best skin treatment to reduce facial lines and wrinkles. Younger looking skin in one simple step.",
+        "summary":{
+            "one": "Botox treatments by qualified doctors",
+            "two": "Natural looking results for facial lines",
+            "three": "Costs from £250 for men & women"
+        },
+        "details": {
+            "subTitelA": "No 1 wrinkle treatment",
+            "detailA": "Botox is the worlds No1 facial treatment for lines and wrinkles to help us look younger and more refreshed. It was first introduced into the UK in the late 80’s and its popularity has soared since then to treating millions of men and women safely each year. It is the result of years of studies(1) culminating in its the Food and Drug Administration (FDA) approval of botulinum toxin in 1989, for a wrinkle injection to target wrinkles and fine lines.The Botox treatment involves tiny painless injections into the specific areas of the skin to temporarily relax the muscles under the skin that in turn softens out the lines created by repetitive facial expressions over the years.The best thing about the Botox is that it only takes about 5-10 minutes to do and you can resume your normal day afterwards as there is no downtime.It takes 3-4 days to start work and the rejuvenating younger appearance lasts about 4-5 months.",
+            "subTitelB": "Benefits of Botox",
+            "detailB": {
+                "a": "Frown line reduction – the frown lines are often known as the glabella area and either form a 11 i.e. two lines or a single vertical line. These are caused by repetitive use of these muscles and by relaxing them will reduce or remove these lines so you look less angry and more refreshed.",
+                "b": "Forehead line smoothing – the forehead lines are our main form or expression and the overuse of these muscles creates furrows across the forehead. Smoothing out these whilst maintaining some movement is the key skill of administering botox safely.",
+                "c": "Eye line de-creasing – the eye lines or crows feet are from smiling and laughter and get deeper with age and contribute to sagging skin later in life. By reducing the excessive creasing means the lines will soften and the skin will retain its strength for longer.",
+                "d": "Jawline slimming – the masseter muscles that we use to bite often over clenches that can lead to teeth grinding but also asymmetry of the face particularly in women where the jaw looks too wide. By relaxing these muscles it creates an effect of a slimmer more defined jawline."
+            }
+        },
+        "rating": {
+            "rate": 4.3,
+            "count": 400
+        }
+    },
+    {
+        "id": 2,
+        "thumbnail": "https://musing-euclid-055303.netlify.app/service02.png",
+        "bannerImg": "https://musing-euclid-055303.netlify.app/banner-2.jpg",
+        "beforAfterImg": "https://cosmedics-s3-bucket.s3.eu-west-2.amazonaws.com/wp-content/uploads/2020/05/27114027/botox-restylane-before-after.jpg",
+        "beforAfterImg1": "https://cosmedics-s3-bucket.s3.eu-west-2.amazonaws.com/wp-content/uploads/2020/05/31155532/Dermal-filler-for-men.jpg",
+        "serviceNmae": "Dermal Fillers",
+        "price": "380",
+        "title": "Only the best Dermal Fillers",
+        "titelDetails": " Rejuvenate the skin with filler injections that are doctor administered for a safe and natural result for a fresher appearance.",
+        "summary":{
+            "one": "Natural looking results",
+            "two": "Treatments by doctors",
+            "three": "Costs from £380"
+        },
+        "details": {
+            "subTitelA": "What are Dermal Fillers?",
+            "detailA": "Dermal fillers or ‘fillers’ as they are known are a gel like substance called hyaluronic acid that is injected into skin to lift and plump out areas that have lost collagen as a result of the natural ageing process.The injections rejuvenate the skin achieving an instant fresher younger appearance that just makes you look your best. The dermal filler injections are temporary however they achieve fantastic, long-lasting results. The active ingredient, hyaluronic acid, is naturally found in the skin, tendons and muscles of humans and therefore naturally combats an array of natural aging symptoms such as wrinkles, aging lines, nasolabial folds (1), crow’s feet, frown lines and ‘sad mouth lines’. It can also be used to augment cheek, temple and lip volume.For some patients more advanced treatments such as thread lifts may ultimately be the most appropriate procedure to achieve the desired results. But minimally invasive treatments, such as dermal fillers, can help delay a more invasive procedure.",
+            "subTitelB": "Dermal filler benefits",
+            "detailB": {
+                "a": "Dermal fillers take as little as 10 to 15 minutes to administer, there is no downtime required at all, so once you have had your fillers, you are free to return to work and the rest of your day-to-day activities,",
+                "b": "Dermal fillers treatment produces fast results. The differences will be obvious immediately and the best result is visible a few days later.",
+                "c": "The results look natural and can be so subtle that it will not be obvious that you have had fillers. However if you are seeking a more dramatic looking result, we can help you achieve this too.",
+                "d": "Dermal fillers can be carried out alongside other treatments to enhance the overall result, for example fillers can be used alongside botox in an 8 point lift."
+            }
+        },
+        "rating": {
+            "rate": 4.2,
+            "count": 890
+        }
+    },
+    {
+        "id": 3,
+        "thumbnail": "https://musing-euclid-055303.netlify.app/service03.png",
+        "bannerImg": "https://musing-euclid-055303.netlify.app/banner-3.jpg",
+        "beforAfterImg": "https://cosmedics-s3-bucket.s3.eu-west-2.amazonaws.com/wp-content/uploads/2020/05/31173822/Large-facial-mole-removal-results.jpg",
+        "beforAfterImg1": "https://cosmedics-s3-bucket.s3.eu-west-2.amazonaws.com/wp-content/uploads/2020/07/16075327/facial-mole-before-after-surgery.jpg",
+        "serviceNmae": "Mole Removal",
+        "price": "310",
+        "title": "Mole Removal Face & body moles",
+        "titelDetails": "Leading providers of mole removal with affordable prices, latest techniques, and a same day ‘see & treat’ service for ultimate convenience.",
+        "summary":{
+            "one": "Same day treatment",
+            "two": "Laser & surgery options",
+            "three": "Cost from £310"
+        },
+        "details": {
+            "subTitelA": "Face & body moles",
+            "detailA": "Moles are a common feature on our skin. Moles can vary in colour, size shape and whether they are flat or protrude from the skin.Most moles are harmless and we tend to get more as we age. Abnormal moles tend to have different shape, size and a darker colour to your other moles as well as grow more rapidly.Moles can in rare cases be a sign of skin cancer so it’s important to detect them early and prevent them developing.",
+            "subTitelB": "What are the Benefits of Mole Removal",
+            "detailB": {
+                "a": "the mole is protruding and is easily irritated by clothing (for example, catching on bras, belts etc)",
+                "b": "the mole is cosmetically bothering you and you would like it removed",
+                "c": "the mole is worrying and needs to be removed for testing (histology) and treatment to eliminate the risk of cancer",
+                "d": "the mole is considered potentially dangerous and you would rather eliminate the risk now than continue monitoring it and having regular check-ups"
+            }
+        },
+        "rating": {
+            "rate": 4.5,
+            "count": 90
+        }
+    },
+    {
+        "id": 4,
+        "thumbnail": "https://musing-euclid-055303.netlify.app/service04.png",
+        "bannerImg": "https://musing-euclid-055303.netlify.app/banner-4.jpg",
+        "beforAfterImg": "https://cosmedics-s3-bucket.s3.eu-west-2.amazonaws.com/wp-content/uploads/2020/05/31151922/Cyst-removal-surgery.jpg",
+        "beforAfterImg1": "https://cosmedics-s3-bucket.s3.eu-west-2.amazonaws.com/wp-content/uploads/2020/05/31140457/Eyelid-cyst-removal-results.jpg",
+        "serviceNmae": "Cyst Removal",
+        "price": "500",
+        "title": "Cyst Removal Face & body moles",
+        "titelDetails": "Same day cyst removal surgery with micro excisions to ensure minimal scarring and quick recovery.",
+        "summary":{
+            "one": "Micro excision small scar technique",
+            "two": "Same day treatment in 30 mins",
+            "three": "Costs from £500"
+        },
+        "details": {
+            "subTitelA": "What are cysts?",
+            "detailA": "A skin cyst is a fluid-filled lump or bump with smelly cheese like substance just underneath the skin. They are common and harmless and most slowly grow with time. It can be difficult to tell whether a lump is a cyst or something else that might need treatment and so worth asking a doctor for advice.",
+            "subTitelB": "What are the benefits?",
+            "detailB": {
+                "a": "Cyst surgery removal means that the lump or bump is then removed completely for peace of mind and be replaced by a small scar. This means it will be less visible and no longer be nuisance. It is a quick simple procedure that takes less than 20 minutes. It is pain-free due to the local anaesthetic.",
+                "b": "You will go home with a small plaster over the wound and any stitches will be removed in 7-14 days",
+                "c": "the cyst is worrying and needs to be removed for testing (histology) and treatment to eliminate the risk of cancer",
+                "d": "the cyst is considered potentially dangerous and you would rather eliminate the risk now than continue monitoring it and having regular check-ups"
+            }
+        },
+        "rating": {
+            "rate": 3.8,
+            "count": 9580
+        }
+    },
+    {
+        "id": 5,
+        "thumbnail": "https://musing-euclid-055303.netlify.app/service05.png",
+        "bannerImg": "https://musing-euclid-055303.netlify.app/banner-5.jpg",
+        "beforAfterImg": "https://cosmedics-s3-bucket.s3.eu-west-2.amazonaws.com/wp-content/uploads/2020/05/08111552/skin-tag-removal-eye-before-after.jpg",
+        "beforAfterImg1": "https://cosmedics-s3-bucket.s3.eu-west-2.amazonaws.com/wp-content/uploads/2020/05/31155539/Before-and-after-dermal-filler.jpg",
+        "serviceNmae": "Skin Tag Removal",
+        "price": "250",
+        "title": "Simple safe and gentle treatments Skin tag removal",
+        "titelDetails": "Laser & surgical treatments for removal of stubborn and embarrassing skin tags in all areas of the body.",
+        "summary":{
+            "one": "All skin tags removed",
+            "two": "Same day treatments",
+            "three": "Costs from £250"
+        },
+        "details": {
+            "subTitelA": "Skin Tag Removal Consultation",
+            "detailA": "The cost of consultation with our doctors is £50. This is redeemable against the cost of treatment carried out on the same day.Prices are a guide to the costs and the exact price can only be determined once the doctor has examined you in person. Most skin tags don’t need histology testing. However, in certain circumstances if the doctor thinks it is necessary, then they will discuss this with you and the related costs.",
+            "subTitelB": "What are the benefits?",
+            "detailB": {
+                "a": "Skin tags are harmless but can be annoying and patients’ often just want to get rid of them as they can affect their self-confidence.  Skin tags are often visible in areas such as the face, eyelids, neck, underarm and groin. Most skin tags are 2-3mm in size and larger skin tags (papillomas) can reach 5mm or more.",
+                "b": "You will go home with a small plaster over the wound and any stitches will be removed in 7-14 days",
+                "c": "the skin tag is worrying and needs to be removed for testing (histology) and treatment to eliminate the risk of cancer",
+                "d": "the skin tag is considered potentially dangerous and you would rather eliminate the risk now than continue monitoring it and having regular check-ups"
+            }
+        },
+        "rating": {
+            "rate": 4.9,
+            "count": 980
+        }
+    },
+    {
+        "id": 6,
+        "thumbnail": "https://musing-euclid-055303.netlify.app/service06.png",
+        "bannerImg": "https://musing-euclid-055303.netlify.app/banner-6.jpg",
+        "beforAfterImg": "https://cosmedics-s3-bucket.s3.eu-west-2.amazonaws.com/wp-content/uploads/2020/05/16144348/Foam-sclerotherapy-before-and-after-results.jpg",
+        "beforAfterImg1": "https://cosmedics-s3-bucket.s3.eu-west-2.amazonaws.com/wp-content/uploads/2020/05/31155539/Before-and-after-dermal-filler.jpg",
+        "serviceNmae": "Varicose Vein Treatment",
+        "price": "500",
+        "title": "Varicose Vein Treatment Ultrasound Scan Diagnosis",
+        "titelDetails": "Laser, Clarivein and foam vein treatments all available with same day ultrasound scan with our vascular surgeon. ",
+        "summary":{
+            "one": "London vein clinics",
+            "two": "Same day treatments",
+            "three": "Affordable pricing from £500"
+        },
+        "details": {
+            "subTitelA": "Varicose Vein Clinic",
+            "detailA": "Varicose veins often trouble patients quietly for years before they seek out medical help when the symptoms such as aching and unsightly bulging leg veins become more noticeable. Unfortunately the NHS does not tend to treat varicose veins as they are often deemed cosmetic.",
+            "subTitelB": "Private Varicose Vein Treatment",
+            "detailB": "Seeking treatment for varicose veins is often difficult as the terminology is quite confusing to know what the best option for you is. At Cosmedics we try to make it easy for you with a one stop vein clinic designed to give you peace of mind that you are making the right choice. Our costs for vein treatments are probably the most affordable in London. Prices from £1,650 for EVLA. See our vein removal prices below. We have a dedicated vein clinic, registered with Care Quality Commission for walk-in walk-out ‘same day’ treatments. All consultations, ultrasound scans and treatments are carried out at our London Vein Clinics in Putney and Harley Street by Mr Sridhar a leading UK vascular surgeon who has performed thousands of varicose vein treatments."
+        },
+        "rating": {
+            "rate": 4.4,
+            "count": 355
+        }
+    },
+    {
+        "id": 7,
+        "thumbnail": "https://musing-euclid-055303.netlify.app/service07.png",
+        "bannerImg": "https://musing-euclid-055303.netlify.app/banner-7.jpg",
+        "beforAfterImg": "https://cosmedics-s3-bucket.s3.eu-west-2.amazonaws.com/wp-content/uploads/2020/05/16165749/pigmentation-before-after.jpg",
+        "beforAfterImg1": "https://cosmedics-s3-bucket.s3.eu-west-2.amazonaws.com/wp-content/uploads/2020/05/31155539/Before-and-after-dermal-filler.jpg",
+        "serviceNmae": "Laser Pigmentation Treatment ",
+        "price": "499",
+        "title": "Laser pigmentation treatment Easy and Flexible",
+        "titelDetails": "Pigmentation – or uneven skin tone – is a skin problem which affects much of the UK adult population and an issue for which treatment options can be quite limited.",
+        "summary":{
+            "one": "Fast and pain-free laser surgery by our expert doctors/surgeons",
+            "two": "Same day treatments if suitable - no lengthy waiting list",
+            "three": "Completely confidential service in private clinics - we can help where the NHS cannot"
+        },
+        "details": {
+            "subTitelA": "Why do we get pigmentation problems?",
+            "detailA": "Sun exposure or sun beds – which can cause sun spots, age spots, freckles, liver spots or a general ‘patchy’ appearance. This is especially noticeable after the age of 40, when the damage has accumulated and the skin is less able to regenerate from sun exposure ",
+            "subTitelB": "Laser pigmentation treatment",
+            "detailB": {
+                "a": "Laser skin rejuvenation and pigment treatment is a relatively quick and easy procedure which works to lighten or remove skin pigmentation issues by targeting and breaking down the excess melanin within the skin.",
+                "b": "Using no harsh creams or chemicals, the advanced skin system uses specially selected laser wavelengths to break down areas of excessive pigmentation to create a fresher, more even and youthful skin tone, reducing areas of generalised and localised pigmentation and targeting specific areas such as age spots or freckling.",
+                "c": "From the age of around 40 the skin is less able to regenerate itself and pigmentation problems such as age spots, sun spots, enlarged freckles start to appear.",
+                "d": "Hormones – pregnancy hormones can cause melasma or ‘pregnancy mask’. Menopause or other hormonal conditions can also trigger pigmentation problems"
+            }
+        },
+        "rating": {
+            "rate": 4.1,
+            "count": 121
+        }
+    },
+    {
+        "id": 8,
+        "thumbnail": "https://musing-euclid-055303.netlify.app/service08.png",
+        "bannerImg": "https://musing-euclid-055303.netlify.app/banner-8.jpg",
+        "beforAfterImg": "https://www.drdavidrosenberg.com/wp-content/uploads/2016/07/Endobrowlift-38-2.jpg",
+        "beforAfterImg1": "https://cosmedics-s3-bucket.s3.eu-west-2.amazonaws.com/wp-content/uploads/2020/05/31155539/Before-and-after-dermal-filler.jpg",
+        "serviceNmae": "Eyebrow lifts – brow lift surgery ",
+        "price": "2,750",
+        "title": "Eyebrow Lift Treatment Easy and Flexible",
+        "titelDetails": "‘Browplexy’ is the medical name for a brow lift – a popular surgical procedure which removes excessive skin to smooth and lift the forehead and brow area.",
+        "summary":{
+            "one": "Eyelid surgery for rejuvenating and lifting the eyes",
+            "two": "Trust our fully registered and experienced surgeons",
+            "three": "Day case eyelid lift procedures £2,750"
+        },
+        "details": {
+            "subTitelA": "What to expect during a brow lift procedure",
+            "detailA": "By removing excess skin, surgeons are able to provide a solution with lasting results.This procedure works very well in conjunction with Eye Lift surgery or eyelid lift for a more holistic and thorough result. ",
+            "subTitelB": "Brow or eyebrow lift Benifits",
+            "detailB": {
+                "a": "Surgery for rejuvenating and lifting the brow area",
+                "b": "Trust our fully registered and experienced surgeons",
+                "c": "The effect is to make people look fresher and younger. and less tired or angry.",
+                "d": "A brow lift is ideal for patients over the age of 45, where the signs of ageing are becoming established; or for those for whom injectable treatments do not deliver enough of a difference due to excess loose skin, perhaps due to weight loss or sun exposure."
+            }
+        },
+        "rating": {
+            "rate": 4.4,
+            "count": 397
+        }
+    }
+]

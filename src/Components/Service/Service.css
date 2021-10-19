@@ -1,0 +1,15 @@
+.banner{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner-text h1{
+    font-weight: 800;
+}
+.banner-text{
+    background-color: rgba(0, 0, 0, 0.274);
+    border-radius: 15px;
+}
+.review{
+    width:150px;
+}

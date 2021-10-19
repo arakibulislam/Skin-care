@@ -1,0 +1,17 @@
+.features{
+    background-image:url('../../images/cosmetic-surgery-bgn-02.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    color:rgb(15, 15, 15);
+    margin-top:6rem;
+}
+.features .section-head h4{
+    color:#fe436c;
+}
+.features .section-head h2,
+.features h4{
+    color:rgb(15, 15, 15);
+}
+
+

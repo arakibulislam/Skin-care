@@ -1,0 +1,26 @@
+.logo-text{
+    color: #bc003f;
+    font-weight: 800;
+    letter-spacing: 3px;
+
+}
+.logo-text-1{
+    color: #fe436c;
+}
+
+.button{
+    background-color: #ff5353;
+    border: none;
+}
+.user-img{
+    width: 40px;
+}
+.section{
+    border: 1px solid white;
+    border-radius: 5px !important;
+}
+.section:hover{
+    color:#0D5796 !important;
+    border:1px solid #0D5796 !important;
+    border-radius: 5px !important;
+}
