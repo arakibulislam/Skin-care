@@ -40,7 +40,7 @@ const Appointment = () => {
                     </div>
 
                     <div className="col-12 col-md-6">
-                        <h3 className='appoinment-tag'>Request an Appointment</h3>
+                        <h3 className='appoinment-tag text-center'>Request an Appointment</h3>
                         <p className="my-4 lead">Complete the request form, and we'll reach out to you shortly to schedule your appointment.
                         </p>
 
