@@ -11,10 +11,5 @@ Your skin and medical health is in safe hands, as our team includes expert and h
 2. Mole Removal Treatment
 3. Self-Paced & Available 24/7 
 4. A consultation fee/deposit is required in order to secure your appointment.
-<<<<<<< HEAD
 5. Highly qualified and experienced skin treatment doctors and surgeons
 
-
-=======
-5. Highly qualified and experienced skin treatment doctors and surgeons
->>>>>>> final
