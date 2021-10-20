@@ -1,15 +1,24 @@
 import React from 'react';
+import { useState } from 'react';
 import { Button } from 'react-bootstrap';
 import { NavLink, useHistory, useLocation } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
 import './Login.css'
 
 const Login = () => {
+    const [username, setUsername] = useState('')
+    const [password, setPassword] = useState('')
+
+
     const { loginWithGoogle, handleLogin } = useAuth();
 
     const location = useLocation();
     const history = useHistory();
-    const redirect_url = location.state?.from;
+    const redirect_url = location.state?.from || '/home';
+
+    const redirectLink =()=>{
+        history.push(redirect_url)
+    }
 
     const handelGoogleLogin = () => {
         loginWithGoogle()
@@ -20,6 +29,17 @@ const Login = () => {
 
             })
     }
+    const getEmail = (e) => {
+        setUsername(e.target.value);
+    }
+    const getPassword = (e) => {
+        setPassword(e.target.value);
+    }
+
+    const loginwithEmailandPassword = (e) => {
+        e.preventDefault();
+        handleLogin(username, password,redirectLink);
+    }
     return (
 
         <div className="bg-img">
@@ -28,17 +48,17 @@ const Login = () => {
                 <form>
                     <div className="field">
                         <span className="fa fa-user"></span>
-                        <input type="text" required placeholder="Email "  />
+                        <input onBlur={getEmail} type="text" required placeholder="Email " />
                     </div>
                     <div className="field space">
                         <span className="fa fa-lock"></span>
-                        <input type="password" className="pass-key" required placeholder="Password"  />
+                        <input onBlur={getPassword} type="password" className="pass-key" required placeholder="Password" />
                     </div>
                     <p className="pass text-light">
-                    Forgot Password?
+                        Forgot Password?
                     </p>
                     <div className="field">
-                        <input onClick={handleLogin} type="submit" value="LOGIN" />
+                        <input onClick={loginwithEmailandPassword} type="submit" value="LOGIN" />
                     </div>
                 </form>
                 <div className="login">Or login with</div>

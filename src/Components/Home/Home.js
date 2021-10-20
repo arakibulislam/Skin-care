@@ -18,7 +18,7 @@ const Home = () => {
                                 <h2>Feel better in your skin</h2>
                                 <p>TIntroducing new concentrated hyaluron filler, ideal for all non invasive skin interventions. Click to read more about our offers and services.</p>
 
-                                <NavLink className='nav-link' to="/appoinment"><button type="button" className="main-btn mb-3">
+                                <NavLink to="/appoinment"><button type="button" className="main-btn my-3">
                                     Take Appoinment
                                 </button></NavLink>
                             </div>

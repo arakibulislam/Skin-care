@@ -1,42 +1,62 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Button } from 'react-bootstrap';
 import { NavLink,useHistory, useLocation } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
 import './Singup.css'
 
 const Singup = () => {
-    const { handleRegistration, handleEmail, handlePassword, handleName, error,loginWithGoogle } = useAuth();
+    const { handleRegistration,  error,loginWithGoogle } = useAuth();
+
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+
+
+
+    const getName = e => {
+        setName(e.target.value);
+    }
+    const getEmail = e => {
+        setEmail(e.target.value);
+    }
+    const getPassword = e => {
+        setPassword(e.target.value);
+    }
+
     const location = useLocation();
     const history = useHistory();
-    const redirect_url = location.state?.from;
+    const redirect_url = location.state?.from || '/home';
 
-    const handelGoogleLogin = () => {
-        loginWithGoogle()
-            .then(result => {
-                history.push(redirect_url)
-            })
-            .catch(error => {
-
-            })
+    const redirectLink =()=>{
+        history.push(redirect_url)
     }
+
+    const singupEmailandPasswoird=(e)=>{
+        e.preventDefault();
+        handleRegistration(name, email, password, redirectLink);
+       
+
+    }
+
+
     return (
         <div className="bg-img">
             <div className="content">
                 <header>Sing Up Form</header>
-                <form onSubmit={handleRegistration}>
+                <form onSubmit={singupEmailandPasswoird}>
                     <div className="field">
                         <span className="fa fa-user"></span>
-                        <input onBlur={handleName} type="text" required placeholder="Name " />
+                        <input onBlur={getName} type="text" required placeholder="Name " />
                     </div>
                     <div className="field space">
                         <span className="fa fa-user"></span>
-                        <input onBlur={handleEmail} type="text" required placeholder="Email " />
+                        <input onBlur={getEmail} type="text" required placeholder="Email " />
                     </div>
                     <div className="field space">
                         <span className="fa fa-lock"></span>
-                        <input onBlur={handlePassword} type="password" className="pass-key" required placeholder="Password" />
+                        <input onBlur={getPassword} type="password" className="pass-key" required placeholder="Password" />
                     </div>
-                    <div>
+                    <div className='mt-4 text-danger'>
                         <h5>
                             {error}
                         </h5>
@@ -47,7 +67,7 @@ const Singup = () => {
                 </form>
                 <div className="login">Or sing up with</div>
                 <div className="links">
-                    <Button onClick={handelGoogleLogin} className='google'><i className="fab fa-google me-2"></i>Google</Button>
+                    <Button onClick={loginWithGoogle} className='google'><i className="fab fa-google me-2"></i>Google</Button>
                 </div>
                 <div className="signup ">
                     <span>Already Sing Up ?</span>

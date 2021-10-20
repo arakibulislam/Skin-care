@@ -31,7 +31,7 @@ const Blog = () => {
                 </Container>
             </div>
 
-            <Nav className='container mt-5 fs-4 fw-light '
+            <Nav className='container ps-4 my-5 fs-4 fw-light '
                 activeKey="/home"
                 onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
             >
@@ -58,8 +58,8 @@ const Blog = () => {
                 <CardGroup className='row mt-4 mb-5'>
                     {
                         blogs.map(blog => <div key={blog.id} className='col-lg-4 col-12  mb-5'>
-                            <Card className='text-start h-100 position-relative'>
-                                <div className='blog-card'>
+                            <Card className='text-start border-0 blog-card shadow h-100 position-relative mx-auto'>
+                                <div className='blog-img'>
                                     <Card.Img className='img' variant="top" src={blog.img} />
                                 </div>
                                 <Card.Body>

@@ -12,7 +12,7 @@ const Reviews = () => {
                     </div>
                     <div className="col-lg-4 col-sm-6 mb-5 mb-lg-0">
                         <div className="row">
-                            <div className="text-lg-end col-lg-6">
+                            <div className="text-lg-end text-center col-lg-6">
                                 <img className='w-75 rounded-circle' src="http://medicare.bold-themes.com/cosmetic-surgery/wp-content/uploads/sites/11/2018/03/img-cosmetic-surgery-03.jpg" alt="" />
                             </div>
                             <div className='col-lg-6 text-start'>
@@ -26,7 +26,7 @@ const Reviews = () => {
                     </div>
                     <div className="col-lg-4 col-sm-6 mb-5 mb-lg-0">
                         <div className=" row">
-                            <div className="text-lg-end col-lg-6">
+                            <div className="text-lg-end text-center col-lg-6">
                                 <img className='w-75 rounded-circle' src="http://medicare.bold-themes.com/cosmetic-surgery/wp-content/uploads/sites/11/2018/03/img-cosmetic-surgery-04.jpg" alt="" />
                             </div>
                             <div className='col-lg-6 text-start'>
@@ -40,7 +40,7 @@ const Reviews = () => {
                     </div>
                     <div className="col-lg-4 col-sm-6 mb-5 mb-lg-0">
                         <div className="row">
-                            <div className="text-lg-end col-lg-6">
+                            <div className="text-lg-end text-center col-lg-6">
                                 <img className='w-75 rounded-circle' src="http://medicare.bold-themes.com/cosmetic-surgery/wp-content/uploads/sites/11/2018/03/img-cosmetic-surgery-05.jpg" alt="" />
                             </div>
                             <div className='col-lg-6 text-start'>

@@ -4,13 +4,17 @@
     min-height: 580px;
     background-size:cover;
     background-repeat: no-repeat;
-    animation: xfade 16s 2s infinite;
-    transition: all 4s ease-in-out;
+    animation: xfade 16s 1s infinite;
+    transition: all 4s ease-out;
     
 }
 @keyframes xfade{
     0%{
         background-image: url('../../images/slider02.jpg');
+    }
+
+    50%{
+        background-image: url('../../images/slider01.jpg');
     }
     
     100%{
@@ -35,7 +39,7 @@
 .main-btn{
     padding:1rem 2rem;
     font-size:1.2rem;
-    background-color:#fe436c;
+    background-color:#b91f40;
     color: #fff;
     font-weight: 400;
     letter-spacing: 0.1rem;
@@ -43,6 +47,7 @@
     cursor:pointer;
     border-radius: 0.5rem;
 }
+
 
 /* ============= */
 .section-head span{
