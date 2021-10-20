@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
+import About from './Components/About/About';
 import Appointment from './Components/Appointment/Appointment';
 import Blog from './Components/Blog/Blog';
 import Footer from './Components/Footer/Footer';
@@ -40,6 +41,9 @@ function App() {
             <PrivateRoute exact path='/appoinment'>
               <Appointment></Appointment>
             </PrivateRoute>
+            <Route exact path='/about'>
+              <About></About>
+            </Route>
             <Route exact path="*">
               <PageNotFound></PageNotFound>
             </Route>

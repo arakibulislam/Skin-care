@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { Button } from 'react-bootstrap';
 import { NavLink, useHistory, useLocation } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
+import search from '../../images/search.png'
 import './Login.css'
 
 const Login = () => {
@@ -57,20 +58,21 @@ const Login = () => {
                     <p className="pass text-light">
                         Forgot Password?
                     </p>
-                    <div className="field">
-                        <input onClick={loginwithEmailandPassword} type="submit" value="LOGIN" />
+                    <div className="field bt">
+                        <input onClick={loginwithEmailandPassword} className='bt' type="submit" value="LOGIN" />
                     </div>
                 </form>
                 <div className="login">Or login with</div>
                 <div className="links">
-                    <Button onClick={handelGoogleLogin} className='google'><i className="fab fa-google me-2"></i>Google</Button>
+                    <Button onClick={handelGoogleLogin} className='google btn-light d-flex justify-content-center align-items-center'> <img className='me-3' src={search} alt="" /> <span className='fs-5 '>Google</span></Button>
                 </div>
                 <div className="signup ">
                     <span>Don't have account?</span>
-                    <NavLink className='nav-link' to="/singup">Signup Now</NavLink>
+                    <NavLink className='nav-link fs-5 text-info' to="/singup">Signup Now</NavLink>
                 </div>
             </div>
         </div>
+        // <i className="fab fa-google me-2"></i>
 
     );
 };

@@ -28,7 +28,7 @@ const Service = () => {
                                     <small>from</small>{singleData?.price}
                                 </h4>
                                 <Button className='me-4 mb-4 p-3 button-blue'><i className="fas fa-phone-alt me-2"></i>Call Us Now</Button>
-                                <NavLink to="/appoinment"><Button className='btn-danger mb-4 p-3'><i className="fas fa-calendar-week me-2"></i>Book Online</Button></NavLink>
+                                <NavLink to="/appoinment"><Button className='btn-primary mb-4 p-3'><i className="fas fa-calendar-week me-2"></i>Book Online</Button></NavLink>
                             </div>
                         </div>
                     </div>

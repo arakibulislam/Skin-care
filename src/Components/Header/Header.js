@@ -12,11 +12,13 @@ const Header = () => {
     return (
             <Navbar collapseOnSelect expand="lg" bg="light" variant="light" sticky="top" >
                 <Container>
-                    <Navbar.Brand to="/home" className='d-flex align-items-center'>
+                    <Navbar.Brand >
+                        <NavLink className='nav-link d-flex align-items-center logo-head' to="/home">
                         <img className='w-75' src={logo} alt="" />
                         <h4 className='ms-3 logo-text'>
                             <span className='logo-text-1'>SKIN</span>CLINICS
                         </h4>
+                        </NavLink>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
@@ -26,6 +28,7 @@ const Header = () => {
                             <NavHashLink className='nav-link fw-bold section' to="/home#reviews">Reviews</NavHashLink>
                             <NavLink className='nav-link fw-bold section ' to="/blogs">Blogs</NavLink>
                             <NavLink className='nav-link fw-bold section' to="/appoinment">Appoinment</NavLink>
+                            <NavLink className='nav-link fw-bold section' to="/about">About Us</NavLink>
 
                         </Nav>
                         <Nav className='d-flex align-items-lg-center align-items-start ms-lg-0 ms-4'>
