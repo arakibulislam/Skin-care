@@ -10,7 +10,12 @@ const Header = () => {
     const { user, logOut } = useAuth()
     
     return (
-            <Navbar collapseOnSelect expand="lg" bg="light" variant="light" sticky="top" >
+            <div className='sticky-top '>
+                <div className='text-end bg-light'>
+                    <Button style={{backgroundColor: "#1e9cdd"}} className='rounded-0 py-2 px-4 border-0'><i className="fas fa-phone-alt me-3"></i>012345678</Button>
+                    <NavLink to="/appoinment"><Button style={{backgroundColor: "#fe5e41"}} className='rounded-0 py-2 px-4 border-0'><i className="fas fa-calendar-minus me-3"></i>Book Now</Button></NavLink>
+                </div>
+                <Navbar className='navbar' collapseOnSelect expand="lg" bg="light" variant="light" sticky="top" >
                 <Container>
                     <Navbar.Brand >
                         <NavLink className='nav-link d-flex align-items-center logo-head' to="/home">
@@ -32,12 +37,9 @@ const Header = () => {
 
                         </Nav>
                         <Nav className='d-flex align-items-lg-center align-items-start ms-lg-0 ms-4'>
-                            
                             <p className='text-dark mt-3 me-3 user'>
                                 {user.displayName}
                             </p>
-
-
                             <img className='user-img me-2 rounded-circle' src={user.photoURL} alt="" />
                             {!user?.email ? <NavLink className='nav-link me-2' to="/login"><i className="fas fa-user me-2"></i>Log In</NavLink> : <Button variant="outline-dark" onClick={logOut}><i className="fas fa-sign-out-alt me-2"></i>Logout</Button>}
 
@@ -49,6 +51,7 @@ const Header = () => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
+            </div>
     );
 };
 

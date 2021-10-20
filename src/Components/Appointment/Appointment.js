@@ -60,7 +60,7 @@ const Appointment = () => {
                                             <span className="fw-bold">Details: </span> {appointment.details}
                                         </p>
                                         <div className="text-center mt-5">
-                                            <a href="https://images.pexels.com/photos/4439457/pexels-photo-4439457.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" className="btn btn-outline-danger">Download</a>
+                                            <a href="https://images.pexels.com/photos/4439457/pexels-photo-4439457.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" target="blank" className="btn btn-outline-danger">Download</a>
                                         </div>
                                     </div>
                                 </div>
